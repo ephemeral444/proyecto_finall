@@ -17,7 +17,7 @@ public class Main {
         int opcion = -1;
         while (opcion != 0) {
             mostrarMenu();
-            opcion = leerEntero("Digite la opcion que desea elegir: ");
+            opcion = leerEntero("Digite la opcion que desea elegir :) : ");
             switch (opcion) {
                 case 1:
                     registrarPacienteEPS(pacientesEPS, arbolPacientes);
